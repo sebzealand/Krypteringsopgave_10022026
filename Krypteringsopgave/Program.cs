@@ -5,5 +5,5 @@ var persons = await repo.GetAllAsync();
 
 foreach (var p in persons)
 {
-    Console.WriteLine(p.first_name);
+    Console.WriteLine(p.First_name);
 }
