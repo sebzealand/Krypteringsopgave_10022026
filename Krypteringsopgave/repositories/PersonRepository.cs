@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 public class PersonRepository 
 {
-    private readonly string _filepath = "../data/flat_file_db.json";
+    private readonly string _filepath = "data/flat_file_db.json";
     
     public PersonRepository() 
     {

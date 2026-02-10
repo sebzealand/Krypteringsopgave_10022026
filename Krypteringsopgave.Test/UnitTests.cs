@@ -9,12 +9,12 @@ public class UnitTests
         // Given
         // Givet at der findes et objekt med id = 1
         PersonRepository repo = new PersonRepository();
-        var persons = await repo.GetAllAsync()
+        var persons = await repo.GetAllAsync();
         // When
         // Når vi kører funktionen GetById
-        var person = await repo.GetById(1)
+        var person = await repo.GetById(1);
 
-        // Then
-        Assert.Equal(person.Person_id, 1)
+        // Then (expected, result)
+        Assert.Equal(1, person.Person_id);
     }
 }

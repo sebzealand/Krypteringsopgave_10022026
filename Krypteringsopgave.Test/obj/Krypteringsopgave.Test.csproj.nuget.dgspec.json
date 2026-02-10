@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave.Test/Krypteringsopgave.Test.csproj": {}
+    "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave.Test/Krypteringsopgave.Test.csproj": {}
   },
   "projects": {
-    "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave.Test/Krypteringsopgave.Test.csproj": {
+    "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave.Test/Krypteringsopgave.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave.Test/Krypteringsopgave.Test.csproj",
+        "projectUniqueName": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave.Test/Krypteringsopgave.Test.csproj",
         "projectName": "Krypteringsopgave.Test",
-        "projectPath": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave.Test/Krypteringsopgave.Test.csproj",
-        "packagesPath": "/Users/sbx/.nuget/packages/",
-        "outputPath": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave.Test/obj/",
+        "projectPath": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave.Test/Krypteringsopgave.Test.csproj",
+        "packagesPath": "/home/kurt/.nuget/packages/",
+        "outputPath": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sbx/.nuget/NuGet/NuGet.Config"
+          "/home/kurt/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj": {
-                "projectPath": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj"
+              "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj": {
+                "projectPath": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj"
               }
             }
           }
@@ -42,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -76,26 +76,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj": {
+    "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj",
+        "projectUniqueName": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj",
         "projectName": "Krypteringsopgave",
-        "projectPath": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj",
-        "packagesPath": "/Users/sbx/.nuget/packages/",
-        "outputPath": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgave/obj/",
+        "projectPath": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave/Krypteringsopgave.csproj",
+        "packagesPath": "/home/kurt/.nuget/packages/",
+        "outputPath": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgave/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sbx/.nuget/NuGet/NuGet.Config"
+          "/home/kurt/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -119,7 +125,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -141,12 +147,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

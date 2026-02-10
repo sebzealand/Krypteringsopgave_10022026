@@ -1,5 +1,5 @@
 ﻿
-PersonRepository repo = new PersonRepository("data/flat_file_db.json");
+PersonRepository repo = new PersonRepository();
 
 var persons = await repo.GetAllAsync();
 
@@ -11,7 +11,7 @@ foreach (var p in persons)
 var person = new Person();
 person.First_name = "John";
 person.Last_name = "Doe";
-person.Adress = "Somewhere";
+person.Address = "Somewhere";
 person.Street_number = "123";
 person.Password = "Test";
 person.Enabled = true;
