@@ -1,9 +1,11 @@
-{
-    "person_id": 1,
-    "first_name": "Knud",
-    "last_name": "Den store",
-    "address": "Jellinge",
-    "street_number": "69",
-    "password": "please hash",
-    "enabled": true
-}
+[
+    {
+        "person_id": 1,
+        "first_name": "Knud",
+        "last_name": "Den store",
+        "adress": "Jellinge",
+        "street_number": "69",
+        "password": "please hash",
+        "enabled": true
+    }
+]
