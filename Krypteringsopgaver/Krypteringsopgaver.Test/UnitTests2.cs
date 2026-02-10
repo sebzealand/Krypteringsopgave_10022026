@@ -29,13 +29,11 @@ public class UnitTests2
         await _repo.CreatePerson(newPerson);
         //then
         List<Person> persons = await _repo.GetAllAsync();
-        Assert.Equal(newPerson, persons.Last());
+        Assert.Equal(newPerson.First_name, persons.Last().First_name);
+        Assert.Equal(newPerson.Last_name, persons.Last().Last_name);
+        Assert.Equal(newPerson.Adress, persons.Last().Adress);
+        Assert.Equal(newPerson.Street_number, persons.Last().Street_number);
+        Assert.Equal(newPerson.Password, persons.Last().Password);
+        Assert.Equal(newPerson.Enabled, persons.Last().Enabled);
     }
-    
-    [Fact]
-    public async Task CreatePersonFail()
-    {
-        
-    }
-
 }
