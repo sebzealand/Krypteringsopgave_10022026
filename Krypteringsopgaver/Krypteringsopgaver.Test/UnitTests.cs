@@ -24,4 +24,20 @@ public class UnitTests
         Assert.True(person.Enabled);
         
     }
+
+    [Fact]
+    public async Task GetById_Fail()
+    {
+        // Given
+        var dpPath = Path.Combine(AppContext.BaseDirectory, "data", "flat_file_db.json");
+        PersonRepository repo = new PersonRepository(dpPath);
+        int nonExistingId = 100;
+        
+        // When
+        var result = repo.GetById(nonExistingId);
+        
+        // Then
+        // Vi forventer den fejler, og fanger derfor den forventede exception.
+        await Assert.ThrowsAsync<ArgumentException>(() => result);
+    }
 }
