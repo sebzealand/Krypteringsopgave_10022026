@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/Krypteringsopgaver.csproj": {}
+    "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/Krypteringsopgaver.csproj": {}
   },
   "projects": {
-    "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/Krypteringsopgaver.csproj": {
+    "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/Krypteringsopgaver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/Krypteringsopgaver.csproj",
+        "projectUniqueName": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/Krypteringsopgaver.csproj",
         "projectName": "Krypteringsopgaver",
-        "projectPath": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/Krypteringsopgaver.csproj",
-        "packagesPath": "/Users/sbx/.nuget/packages/",
-        "outputPath": "/Users/sbx/Documents/Coding/Zealand/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/obj/",
+        "projectPath": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/Krypteringsopgaver.csproj",
+        "packagesPath": "/home/kurt/.nuget/packages/",
+        "outputPath": "/home/kurt/Code/Krypteringsopgave_10022026/Krypteringsopgaver/Krypteringsopgaver/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sbx/.nuget/NuGet/NuGet.Config"
+          "/home/kurt/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -60,12 +60,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[10.0.0, 10.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/sbx/.dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

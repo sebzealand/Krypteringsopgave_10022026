@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Krypteringsopgaver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1408e2e89b1f880e835d5d9c9c0bb8d6b009453f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ad82b24aaef337c77791ecadc9e5066e5cc83f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Krypteringsopgaver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Krypteringsopgaver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
