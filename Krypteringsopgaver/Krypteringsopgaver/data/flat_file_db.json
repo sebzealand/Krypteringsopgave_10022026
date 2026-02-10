@@ -1,0 +1,11 @@
+[
+  {
+    "Person_id": 1,
+    "First_name": "John",
+    "Last_name": "Doe",
+    "Adress": "Somewhere",
+    "Street_number": "",
+    "Password": "Test",
+    "Enabled": true
+  }
+]
