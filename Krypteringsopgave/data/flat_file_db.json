@@ -1,11 +1,1 @@
-[
-    {
-        "person_id": 1,
-        "first_name": "Knud",
-        "last_name": "Den store",
-        "adress": "Jellinge",
-        "street_number": "69",
-        "password": "please hash",
-        "enabled": true
-    }
-]
+[{"Person_id":1,"First_name":"Knud","Last_name":"Den store","Adress":"Jellinge","Street_number":"69","Password":"please hash","Enabled":true},{"Person_id":2,"First_name":"John","Last_name":"Doe","Adress":"Somewhere","Street_number":"123","Password":"Test","Enabled":true},{"Person_id":3,"First_name":"John","Last_name":"Doe","Adress":"Somewhere","Street_number":"123","Password":"Test","Enabled":true}]

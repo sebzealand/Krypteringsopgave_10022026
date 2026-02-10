@@ -1,15 +1,11 @@
-using System;
-using System.IO;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 public class PersonRepository 
 {
-    private readonly string _filepath;
+    private readonly string _filepath = "../data/flat_file_db.json";
     
-    public PersonRepository(string filepath) 
+    public PersonRepository() 
     {
-        _filepath = filepath;
     }
 
     private async Task<List<Person>> LoadAsync() 
@@ -22,5 +18,26 @@ public class PersonRepository
         return JsonConvert.DeserializeObject<List<Person>>(json) ?? throw new ArgumentException("No persons");
     }
     
+    private async Task SaveAsync(List<Person> persons) => await File.WriteAllTextAsync(_filepath, JsonConvert.SerializeObject(persons));
+    
     public async Task<List<Person>> GetAllAsync() => await LoadAsync();
+
+    public async Task<Person> GetById(int id) 
+    {
+        var persons = await LoadAsync();
+        return persons.Find(p => p.Person_id == id) ?? throw new ArgumentException("Person not found"); 
+    }
+
+    public async Task<Person> CreatePerson(Person person)
+    {
+        var personer = await LoadAsync();
+
+        int nyId = personer.Any() ? personer.Max(p => p.Person_id) + 1 : 1;
+        person.Person_id = nyId;
+        
+        personer.Add(person);
+        await SaveAsync(personer);
+        
+        return person;
+    }
 }
