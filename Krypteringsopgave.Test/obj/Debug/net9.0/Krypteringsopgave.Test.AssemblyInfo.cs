@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Krypteringsopgave.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7c4f7e5b3c075468bd512b63500bede302b2fdb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1408e2e89b1f880e835d5d9c9c0bb8d6b009453f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Krypteringsopgave.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Krypteringsopgave.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
