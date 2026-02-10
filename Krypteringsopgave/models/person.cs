@@ -1,15 +1,15 @@
 public class Person
 {
-    public int person_id {get; set;}
-    public string first_name {get; set;}
-    public string last_name {get; set;}
-    public string adress {get; set;}
-    public string street_number {get; set;}
-    public string password {get; set;}
-    public bool enabled {get; set;}
+    public int Person_id {get; set;}
+    public string First_name {get; set;}
+    public string Last_name {get; set;}
+    public string Adress {get; set;}
+    public string Street_number {get; set;}
+    public string Password {get; set;}
+    public bool Enabled {get; set;}
 
     public Person(){
-        
+
     }
 
 }
