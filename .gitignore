@@ -684,3 +684,16 @@ Krypteringsopgaver/Krypteringsopgaver/obj/Debug/net10.0/Krypteringsopgaver.Assem
 Krypteringsopgaver/Krypteringsopgaver/obj/Debug/net10.0/Krypteringsopgaver.AssemblyInfoInputs.cache
 Krypteringsopgaver/Krypteringsopgaver/obj/Debug/net10.0/Krypteringsopgaver.assets.cache
 Krypteringsopgaver/Krypteringsopgaver/obj/Debug/net10.0/Krypteringsopgaver.csproj.AssemblyReference.cache
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# User-specific
+*.user
+*.suo
+*.rsuser
